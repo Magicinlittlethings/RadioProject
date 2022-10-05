@@ -1,0 +1,114 @@
+.landing {
+  background: black;
+  color: white;
+  padding: 0 20px 40px 20px;
+  position: relative;
+}
+.notification__icon {
+  /* background: rgb(28, 27, 27); */
+  font-size: 23px;
+  /* width: max-content;
+    padding: 0;
+    border-radius: 7px; */
+}
+.landing__info {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+input {
+  width: 100%;
+  height: 50px;
+  background: rgb(28, 27, 27);
+  border: none;
+  border-radius: 15px;
+  padding: 0 45px;
+  font-size: 15px;
+}
+.search {
+  position: relative;
+  /* height: 50px;
+    width:100%; */
+}
+.search__icon {
+  position: absolute;
+  left: 20px;
+  bottom: 12px;
+  font-size: 20px;
+}
+.arrow__icon {
+  font-size: 18px;
+}
+.new__messages {
+  padding: 50px 0;
+}
+.messages__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.new__messages__img {
+  width: 100%;
+  height: 250px;
+  border-radius: 30px;
+  background-image: url("src/assets/img5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.top__messages__container {
+  width: 100%;
+  /* display:flex;
+    justify-content: space-between; */
+  align-items: center;
+}
+.left__section {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.left__section__img {
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+}
+.left__section__img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.right__section {
+  display: flex;
+  justify-content: space-between;
+}
+.play__icon{
+    transition: all 250ms ease-in-out;
+    font-size: 20px;
+}
+.play__icon__two{
+    transition: all 250ms ease-in-out;
+    font-size: 20px;
+}
+.play__icon:hover{
+    color:#17da99 ;
+}
+.play__btn{
+    background:#17da99 ;
+    border-radius: 50%;
+    width: max-content;
+    padding: 15px 20px; 
+    transition: all 250 linear;
+    position: absolute;
+    bottom:15px;
+    right:15px;
+    transition: all 250ms ease-in-out;
+}
+.play__btn:hover{
+    transform: scale(1.05);
+}
+

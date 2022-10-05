@@ -1,0 +1,105 @@
+<div class="landing">
+    
+  <div class="landing__info">
+    <div>
+      <p>Logo</p>
+    </div>
+    <fa-icon class="notification__icon" [icon]="faBell"></fa-icon>
+  </div>
+  <div class="search">
+    <input
+      type="search"
+      name=""
+      id=""
+      placeholder="find topics, devotionals,..."
+    />
+    <fa-icon class="search__icon" [icon]="faSearch"></fa-icon>
+  </div>
+  <div class="new__messages">
+    <div class="messages__header">
+      <p class="text__one">New Messages</p>
+      <p class="text__three" routerLink="/messages">See All</p>
+    </div>
+
+    <div class="new__messages__img">
+      <!-- <img src="/assets/img3.jpg" alt=""> -->
+      <div class="play__btn">
+        <fa-icon routerLink="/radio" class="play__icon__two" [icon]="faPlay"></fa-icon>
+    </div>
+    </div>
+
+    <p class="text__two">Making Decisions</p>
+    <p class="text__three">Joe Linon</p>
+   
+  </div>
+  <div class="top__messages">
+    <div class="messages__header">
+      <p class="text__one">Top Messages</p>
+      <p class="text__three" routerLink="/messages">See All</p>
+    </div>
+    <div class="top__messages__container">
+      <div class="left__section">
+        <div class="left__section__img" >
+          <img src="/assets/img4.jpg" alt="" />
+        </div>
+
+        <div class="left__section__text" routerLink="/message">
+          <p class="text__two">Making Decisions</p>
+          <p class="text__three">Joe Linon</p>
+        </div>
+        <fa-icon routerLink="/radio" class="play__icon" [icon]="faPlay"></fa-icon>
+      </div>
+      <div class="left__section">
+        <div class="left__section__img" >
+          <img src="/assets/img1.jpg" alt="" />
+        </div>
+
+        <div class="left__section__text">
+          <p class="text__two">Making Decisions</p>
+          <p class="text__three">Joe Linon</p>
+        </div>
+        <fa-icon routerLink="/radio" class="play__icon" [icon]="faPlay"></fa-icon>
+      </div>
+      <div class="left__section">
+        <div class="left__section__img" >
+          <img src="/assets/img2.jpg" alt="" />
+        </div>
+
+        <div class="left__section__text">
+          <p class="text__two">Making Decisions</p>
+          <p class="text__three">Joe Linon</p>
+        </div>
+        <fa-icon routerLink="/radio" class="play__icon" [icon]="faPlay"></fa-icon>
+      </div>
+      <div class="left__section">
+        <div class="left__section__img" >
+          <img src="/assets/img6.jpg" alt="" />
+        </div>
+
+        <div class="left__section__text">
+          <p class="text__two">Making Decisions</p>
+          <p class="text__three">Joe Linon</p>
+        </div>
+        <fa-icon routerLink="/radio" class="play__icon" [icon]="faPlay"></fa-icon>
+      </div>
+      <div class="left__section">
+        <div class="left__section__img" >
+          <img src="/assets/img5.jpg" alt="" />
+        </div>
+
+        <div class="left__section__text">
+          <p class="text__two">Making Decisions</p>
+          <p class="text__three">Joe Linon</p>
+          
+        </div>
+        <fa-icon routerLink="/radio" class="play__icon" [icon]="faPlay"></fa-icon>
+      </div>
+      <!-- <div class="right__section">
+        <fa-icon class="play__icon" [icon]="faPlay"></fa-icon>
+        <div class="right__section__text text__three">20 min</div>
+      </div> -->
+    </div>
+  </div>
+  <app-menu-icons></app-menu-icons>
+  
+</div>

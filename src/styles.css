@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "work sans", sans-serif;
+  }/* You can add global styles to this file, and also import other style files */
+  .text__one{
+    font-size: 23px;
+    font-weight: 600;
+    /* line-height: 1.8; */
+}
+.text__two{
+    font-size: 17px;
+    font-weight: 500;
+    margin:15px 0 4px 0;
+}
+.text__three{
+    font-size: 15px;
+    font-weight: 500;
+    color:rgb(73, 71, 71);
+}

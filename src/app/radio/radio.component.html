@@ -1,0 +1,17 @@
+<div class="radio">
+    <div class="previous__icon" routerLink="/landing-page">
+        <fa-icon class="arrow__icon" [icon]="faArrow"></fa-icon>
+    </div>
+    <div class="radio__image">
+        <img src="/assets/img7.jpg" alt="">
+    </div>
+    <div class="radio__title">
+        <p class="title text__three">The Schema Series</p>
+        <p class="subtitle text__one">Mood / Strength</p>
+    </div>
+    <div class="playbtn">
+        <fa-icon *ngIf="play" (click)="toggle()"class="play__icon" [icon]="faPlay"></fa-icon>
+        <fa-icon *ngIf="!play" (click)="toggle()"class="play__icon" [icon]="faPause"></fa-icon>
+    </div>
+    <app-menu-icons></app-menu-icons>
+</div>
