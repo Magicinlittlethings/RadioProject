@@ -1,10 +1,9 @@
 <div class="landing">
-    
   <div class="landing__info">
     <div>
       <p>Logo</p>
     </div>
-    <fa-icon class="notification__icon" [icon]="faBell"></fa-icon>
+    <fa-icon class="notification__icon" routerLink="/notifications" [icon]="faBell"></fa-icon>
   </div>
   <div class="search">
     <input
@@ -17,20 +16,34 @@
   </div>
   <div class="new__messages">
     <div class="messages__header">
-      <p class="text__one">New Messages</p>
-      <p class="text__three" routerLink="/messages">See All</p>
+      <p class="text__one">Now Playing</p>
+      <!-- <p class="text__three" routerLink="/messages">See All</p> -->
     </div>
 
-    <div class="new__messages__img">
-      <!-- <img src="/assets/img3.jpg" alt=""> -->
+    <div routerLink="/radio" class="now__playing__img">
+      <div class="now__playing__title">
+        <p class="text__four">Making Decisions</p>
+        <p class="text__three">Joe Linon</p>
+      </div>
       <div class="play__btn">
-        <fa-icon routerLink="/radio" class="play__icon__two" [icon]="faPlay"></fa-icon>
-    </div>
+        <fa-icon
+          
+          class="play__icon__two"
+          [icon]="faPlay"
+        ></fa-icon>
+      </div>
+      <div class="live__btn">
+
+        <fa-icon
+          
+        class="wifi__icon"
+        [icon]="faWifi"
+      ></fa-icon>
+      <p>Live</p>
+      </div>
     </div>
 
-    <p class="text__two">Making Decisions</p>
-    <p class="text__three">Joe Linon</p>
-   
+  
   </div>
   <div class="top__messages">
     <div class="messages__header">
@@ -39,7 +52,7 @@
     </div>
     <div class="top__messages__container">
       <div class="left__section">
-        <div class="left__section__img" >
+        <div class="left__section__img">
           <img src="/assets/img4.jpg" alt="" />
         </div>
 
@@ -47,10 +60,14 @@
           <p class="text__two">Making Decisions</p>
           <p class="text__three">Joe Linon</p>
         </div>
-        <fa-icon routerLink="/radio" class="play__icon" [icon]="faPlay"></fa-icon>
+        <fa-icon
+          routerLink="/radio"
+          class="play__icon"
+          [icon]="faPlay"
+        ></fa-icon>
       </div>
       <div class="left__section">
-        <div class="left__section__img" >
+        <div class="left__section__img">
           <img src="/assets/img1.jpg" alt="" />
         </div>
 
@@ -58,10 +75,14 @@
           <p class="text__two">Making Decisions</p>
           <p class="text__three">Joe Linon</p>
         </div>
-        <fa-icon routerLink="/radio" class="play__icon" [icon]="faPlay"></fa-icon>
+        <fa-icon
+          routerLink="/radio"
+          class="play__icon"
+          [icon]="faPlay"
+        ></fa-icon>
       </div>
       <div class="left__section">
-        <div class="left__section__img" >
+        <div class="left__section__img">
           <img src="/assets/img2.jpg" alt="" />
         </div>
 
@@ -69,10 +90,14 @@
           <p class="text__two">Making Decisions</p>
           <p class="text__three">Joe Linon</p>
         </div>
-        <fa-icon routerLink="/radio" class="play__icon" [icon]="faPlay"></fa-icon>
+        <fa-icon
+          routerLink="/radio"
+          class="play__icon"
+          [icon]="faPlay"
+        ></fa-icon>
       </div>
       <div class="left__section">
-        <div class="left__section__img" >
+        <div class="left__section__img">
           <img src="/assets/img6.jpg" alt="" />
         </div>
 
@@ -80,19 +105,26 @@
           <p class="text__two">Making Decisions</p>
           <p class="text__three">Joe Linon</p>
         </div>
-        <fa-icon routerLink="/radio" class="play__icon" [icon]="faPlay"></fa-icon>
+        <fa-icon
+          routerLink="/radio"
+          class="play__icon"
+          [icon]="faPlay"
+        ></fa-icon>
       </div>
       <div class="left__section">
-        <div class="left__section__img" >
+        <div class="left__section__img">
           <img src="/assets/img5.jpg" alt="" />
         </div>
 
         <div class="left__section__text">
           <p class="text__two">Making Decisions</p>
           <p class="text__three">Joe Linon</p>
-          
         </div>
-        <fa-icon routerLink="/radio" class="play__icon" [icon]="faPlay"></fa-icon>
+        <fa-icon
+          routerLink="/radio"
+          class="play__icon"
+          [icon]="faPlay"
+        ></fa-icon>
       </div>
       <!-- <div class="right__section">
         <fa-icon class="play__icon" [icon]="faPlay"></fa-icon>
@@ -101,5 +133,4 @@
     </div>
   </div>
   <app-menu-icons></app-menu-icons>
-  
 </div>

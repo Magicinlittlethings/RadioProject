@@ -14,7 +14,7 @@
 }
 .btn{
     font-size: 15px;
-    background: #17DA99;
+    background: #2667ff;
     width: max-content;
     padding:8px 25px;
     border-radius: 18px ;
@@ -23,8 +23,8 @@
   }
 .btn:hover{
     background: transparent;
-    border:1px solid #17DA99;
-    color: #17DA99;
+    border:1px solid #2667ff;
+    color: #2667ff;
 }
 .title{
     font-size: 36px;

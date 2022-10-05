@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {  faHome, faMessage, faUser, faWifi } from '@fortawesome/free-solid-svg-icons';
+import {  faHome, faMessage, faGear, faWifi } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-menu-icons',
@@ -9,7 +9,7 @@ import {  faHome, faMessage, faUser, faWifi } from '@fortawesome/free-solid-svg-
 export class MenuIconsComponent implements OnInit {
   faHome = faHome;
   faMessage = faMessage;
-  faUser = faUser;
+  faGear = faGear;
   faWifi = faWifi;
   constructor() { }
 

@@ -2,16 +2,31 @@
     <div class="previous__icon" routerLink="/landing-page">
         <fa-icon class="arrow__icon" [icon]="faArrow"></fa-icon>
     </div>
+    <p class="radio__station">My Radio Station</p>
     <div class="radio__image">
         <img src="/assets/img7.jpg" alt="">
+        <div class="live__btn">
+
+            <fa-icon
+              
+            class="wifi__icon"
+            [icon]="faWifi"
+          ></fa-icon>
+          <p>Live</p>
+          </div>
+        
     </div>
+    
     <div class="radio__title">
         <p class="title text__three">The Schema Series</p>
         <p class="subtitle text__one">Mood / Strength</p>
     </div>
-    <div class="playbtn">
-        <fa-icon *ngIf="play" (click)="toggle()"class="play__icon" [icon]="faPlay"></fa-icon>
-        <fa-icon *ngIf="!play" (click)="toggle()"class="play__icon" [icon]="faPause"></fa-icon>
+    <div class="playbtn__container">
+        <div class="playbtn">
+            <fa-icon *ngIf="play" (click)="toggle()"class="play__icon" [icon]="faPlay"></fa-icon>
+            <fa-icon *ngIf="!play" (click)="toggle()"class="play__icon" [icon]="faPause"></fa-icon>
+        </div>
     </div>
+    
     <app-menu-icons></app-menu-icons>
 </div>

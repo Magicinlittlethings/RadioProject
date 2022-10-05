@@ -1,0 +1,46 @@
+.notifications{
+    background: black;
+    padding: 0 20px 40px 20px;
+    color:white;
+}
+.previous__icon {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .notification{
+    
+    width:100%;
+   
+    display: flex;
+    align-items: center;
+    gap:30px;
+    padding: 20px 0 10px 0;
+    border-bottom: 1px solid rgb(160, 150, 150);
+  }
+  .notification__container{
+    background:white;
+    padding:15px 30px;
+    border-radius: 15px;
+    margin:0 50px;
+    color:black;
+  }
+  .notification__title{
+    font-weight: 600;
+    font-size: clamp(12px, 2.5vw, 16px);
+    margin-bottom: 5px;
+    line-height: 1.5;
+    cursor:pointer;
+
+  }
+  .left__section img{
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .text__one{
+    margin-bottom: 20px;
+  }

@@ -10,7 +10,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RadioComponent } from './radio/radio.component';
 import { MessageInfoComponent } from './message-info/message-info.component';
 import { MessagesListComponent } from './messages-list/messages-list.component';
-import { MenuIconsComponent } from './menu-icons/menu-icons.component'
+import { MenuIconsComponent } from './menu-icons/menu-icons.component';
+import { NotificationsComponent } from './notifications/notifications.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MenuIconsComponent } from './menu-icons/menu-icons.component'
     RadioComponent,
     MessageInfoComponent,
     MessagesListComponent,
-    MenuIconsComponent
+    MenuIconsComponent,
+    NotificationsComponent
   ],
   imports: [
     BrowserModule,

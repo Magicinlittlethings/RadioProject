@@ -17,21 +17,21 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
-    padding:20px 8px;
+    padding:15px 25px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 30px;
   }
   .message__title{
-    width:60%;
+    
     font-size: 16px;
     margin-bottom: 15px;
     line-height: 1.5;
   }
   .btn{
     font-size: 15px;
-    background: #17DA99;
+    background: #2667ff;
     width: max-content;
     padding:8px 25px;
     border-radius: 18px ;
@@ -40,9 +40,12 @@
   }
   .btn:hover{
     background: transparent;
-    border:1px solid #17DA99;
-    color: #17DA99;
+    border:1px solid #2667ff;
+    color: #2667ff;
 }
   .text__one{
     margin-bottom: 20px;
+  }
+  .text__three{
+    color:white !important;
   }

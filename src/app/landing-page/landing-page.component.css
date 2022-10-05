@@ -49,14 +49,48 @@ input {
   align-items: center;
   margin-bottom: 20px;
 }
-.new__messages__img {
+.now__playing__img {
   width: 100%;
   height: 250px;
   border-radius: 30px;
   background-image: url("src/assets/img5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   position: relative;
+}
+.now__playing__img::before{
+  content:'';
+  position: absolute;
+  width:100%;
+  height:100%;
+  background: linear-gradient(90.34deg, rgba(0, 0, 0, 0.8) 17.76%, rgba(255, 255, 255, 0) 144.88%);
+  opacity:1;
+  border-radius: 30px;
+
+}
+.now__playing__title{
+  position:absolute;
+  top:35px;
+  left:25px;
+
+}
+.live__btn{
+  position:absolute;
+  bottom:15px;
+  left:15px;
+  border:1px solid #2667ff;
+  padding:6px 15px;
+  border-radius: 18px ;
+  color: #2667ff;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wifi__icon{
+  margin-right: 4px;
+  font-size: 12px;
 }
 .top__messages__container {
   width: 100%;
@@ -88,17 +122,17 @@ input {
 }
 .play__icon{
     transition: all 250ms ease-in-out;
-    font-size: 20px;
+    font-size: clamp(17px, 2.5vw, 19px);
 }
 .play__icon__two{
     transition: all 250ms ease-in-out;
     font-size: 20px;
 }
 .play__icon:hover{
-    color:#17da99 ;
+    color:#2667ff ;
 }
 .play__btn{
-    background:#17da99 ;
+    background:#2667ff ;
     border-radius: 50%;
     width: max-content;
     padding: 15px 20px; 
@@ -111,4 +145,12 @@ input {
 .play__btn:hover{
     transform: scale(1.05);
 }
-
+@media screen and (min-width: 600px){
+  
+  .top__messages__container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    padding: 0 35px;
+  }
+}

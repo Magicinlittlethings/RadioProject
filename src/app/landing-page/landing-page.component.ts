@@ -11,6 +11,7 @@ export class LandingPageComponent implements OnInit {
   faBell = faBell;
   faSearch = faMagnifyingGlass;
   faPlay = faPlay;
+  faWifi = faWifi;
 
   constructor() { }
 

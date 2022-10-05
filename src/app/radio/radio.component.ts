@@ -1,4 +1,4 @@
-import { faPause, faArrowLeft, faPlay} from '@fortawesome/free-solid-svg-icons';
+import { faPause, faArrowLeft, faPlay, faWifi} from '@fortawesome/free-solid-svg-icons';
 import { Component, OnInit } from '@angular/core';
 import {   } from '@fortawesome/free-regular-svg-icons';
 
@@ -11,6 +11,7 @@ export class RadioComponent implements OnInit {
   faPause = faPause;
   faArrow = faArrowLeft;
   faPlay = faPlay;
+  faWifi = faWifi;
   play=true;
   constructor() { }
 

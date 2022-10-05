@@ -12,6 +12,10 @@
   }
   .message__image {
     height: 35vh;
+    background: url('src/assets/img8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     border-radius: 15px;
     position: relative;
@@ -26,13 +30,13 @@
     position: absolute;
     z-index: 0;
   } */
-  .message__image img {
+  /* .message__image img {
     height: 100%;
     width: 100%;
     border-radius: 15px;
     object-fit: cover;
     z-index:20;
-  }
+  } */
   .message__title{
     display: flex;
     flex-direction: column;
